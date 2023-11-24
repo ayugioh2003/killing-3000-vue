@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:app1": "pnpm --filter @killing-3000-vue/app1 dev"
+    "dev:app1": "pnpm --filter @killing-3000-vue/app1 dev",
+    "dev:nuxt3": "pnpm --filter @killing-3000-vue/nuxt3 dev"
   },
   "keywords": [],
   "author": "",
