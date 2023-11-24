@@ -1,0 +1,13 @@
+lockfileVersion: '6.0'
+
+importers:
+
+  .: {}
+
+  apps/app1:
+    dependencies:
+      '@killing-3000-vue/package1':
+        specifier: workspace:^
+        version: link:../../packages/package1
+
+  packages/package1: {}
